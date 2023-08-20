@@ -13,7 +13,7 @@ const App = () => {
       <Route path='/' element={<Home />} />
       <Route path='/cart' element={<Cart />} />
     </Routes>
-    {/* just Checking the github */}
+   
   </div>)
 };
 
