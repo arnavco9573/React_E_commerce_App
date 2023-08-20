@@ -18,7 +18,7 @@ const Product = ({ post }) => {
 
 
     return (
-        <div className='flex flex-col items-center justify-between hover:scale-105 transition duration-300 ease-in gap-3 p-4 mt-10 shadow-[0px_20px_20px_10px_#00000024] '>
+        <div className='flex flex-col items-center justify-between hover:scale-105 transition duration-300 ease-in gap-3 p-4 mt-10 hover:shadow-[0px_20px_20px_10px_#00000024] '>
             <div >
                 <p className='text-gray-700 font-semibold text-lg truncate w-40 mt-1'>{post.title}</p>
             </div>
